@@ -1,0 +1,20 @@
+{
+  "name": "mizir/developer-configuration-in-production-mode",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Community"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mizir\\DeveloperConfigurationInProductionMode\\": ""
+    }
+  }
+}
