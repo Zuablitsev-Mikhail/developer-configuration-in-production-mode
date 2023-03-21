@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Mikhail Ziablitsev <mzuablitsev@gmail.com>
+ * @copyright © 2023 Intexsoft.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Config\Model\Config\Structure\ElementVisibility\ConcealInProduction">
+        <arguments>
+            <argument name="exemptions" xsi:type="array">
+                <item name="dev" xsi:type="string"/>
+            </argument>
+        </arguments>
+    </type>
+</config>
