@@ -10,7 +10,7 @@ Magneto 2 module that restores developer configuration in the production mode
     "0": {
       "name": "mizir/developer-configuration-in-production-mode",
       "type": "git",
-      "url": "https://github.com/Zuablitsev-Mikhail/developer-configuration-in-production-mode.git"
+      "url": "https://github.com/Zuablitsev-Mikhail/magento2-developer-configuration-in-production-mode"
     }
   }
 }
